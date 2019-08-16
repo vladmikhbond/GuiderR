@@ -1,0 +1,17 @@
+button {
+  height: 50px;
+  background-color: aqua;
+  border: solid 1px black;
+}
+li {
+  width: 150px;
+  height: 30px;
+  background-color: aqua;
+}
+
+.visible {
+  display: block;
+}
+.hidden {
+  display: none;
+}

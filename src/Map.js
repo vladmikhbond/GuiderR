@@ -27,22 +27,24 @@ export default class Map extends React.Component {
         this.canvasRef = React.createRef();
 
         this.scale = 1;
+        this.path = [];
 
     }
 
 
 
     render() {
-        const imgList = [1,2,3,4,5,6].map(n =>
-            <img id={'floor'+n} src={'floors/'+n+'.svg'} hidden onLoad={this.init} /> );
+        const imgList = [2,3,4,5,6].map(n =>
+            <img id={'floor'+n} src={'floors/'+n+'.svg'} hidden key={n.toString()}/> );
 
         return (
             <div>
-                <div id="scrollBox" ref={this.scrollBoxRef} style={ {height: this.state.scrollBoxHeight} }>
+                <div id="scrollBox" ref={this.scrollBoxRef} style={ {height: this.state.scrollBoxHeight, display: this.props.visible} } >
                     <canvas ref={this.canvasRef}
                             onTouchStart={this.handleStart.bind(this)}
                             onTouchMove={this.handleMove.bind(this)}></canvas>
                 </div>
+                <img id='floor1' src={'floors/1.svg'} onLoad={this.init} hidden key='1'/>
                 {imgList}
             </div>
         );
@@ -64,7 +66,7 @@ export default class Map extends React.Component {
 
     handleStart(e) {
         //e.preventDefault();
-        if (e.touches.length == 1) {
+        if (e.touches.length === 1) {
             this.xt = e.touches[0].clientX;
             this.yt = e.touches[0].clientY;
         }  else if (e.touches.length > 1) {
@@ -77,7 +79,7 @@ export default class Map extends React.Component {
         //e.preventDefault();
         let xt;
         let yt;
-        if (e.touches.length == 1) {
+        if (e.touches.length === 1) {
             xt = e.touches[0].clientX;
             yt = e.touches[0].clientY;
             this.scrollBoxRef.current.scrollLeft += this.xt - xt;
@@ -107,9 +109,9 @@ export default class Map extends React.Component {
             0, 0, canvas.width, canvas.height);
 
         // may be draw path
-        // if (!this.path.length) {
-        //     return;
-        // }
+        if (!this.path.length) {
+            return;
+        }
         // this.drawPath();
     }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Menu from './Menu';
 import Map from './Map';
 
 export default class App extends React.Component {
@@ -9,7 +10,7 @@ export default class App extends React.Component {
         return (
             <div className="dash">
                 <span style={ {display: this.state.dashDisplay}}>
-                <button>Input</button>
+                <Menu name='From' />
                 <button>Output</button>
 
                 <button onClick={this.go}>Go</button>
@@ -19,7 +20,10 @@ export default class App extends React.Component {
               </span>
               <button onClick={this.help}>Help</button>
 
-              <Map style={ {display: this.state.mapDisplay}}></Map>
+              {/*<Map style={ {display: this.state.mapDisplay}}></Map>*/}
+                <Map visible={this.state.mapDisplay}></Map>
+
+
               <div id="help" style={ {display: this.state.helpDisplay}}>
                     <h1>Инструкция</h1>
                     <p/>Первой кнопкой выберите "откуда".
