@@ -11,18 +11,22 @@ export default class App extends React.Component {
 
     constructor(props) {
         super(props);
-        this.fromTag = null;
-        this.toTag = null;
         this.guiderService = new GuiderService();
+
+        this.fromTag = null;
+        this.fromList = this.guiderService.getFromTags();
+        this.toTag = null;
+        this.toList = this.guiderService.getToTags();
         this.map = React.createRef();
+        // global.guiderService =  this.guiderService;
     }
 
     render() {
         return (
             <div className="dash">
                 <span style={ {display: this.state.dashDisplay}}>
-                    <Menu name='From' onSelect={this.from}/>
-                    <Menu name='To' onSelect={this.to}/>
+                    <Menu name='From' list={this.fromList} onSelect={this.from}/>
+                    <Menu name='To' list={this.toList} onSelect={this.to}/>
 
                     <button onClick={this.go}>Go</button>
 
@@ -69,7 +73,7 @@ export default class App extends React.Component {
 
     createRoute() {
         let path = this.guiderService.findPath(this.fromTag, this.toTag);
-        if (path.length) {
+        if (path && path.length) {
             const map = this.map.current;
             map.path = path;
             setTimeout(() => {
