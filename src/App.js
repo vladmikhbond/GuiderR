@@ -3,7 +3,9 @@ import './App.css';
 import Menu from './Menu';
 import Map from './Map';
 import {GuiderService} from './data/service';
+
 export const DASH_HEIGHT = 50;
+const SCALE_FACTOR = 1.2;
 
 export default class App extends React.Component {
 
@@ -12,13 +14,12 @@ export default class App extends React.Component {
     constructor(props) {
         super(props);
         this.guiderService = new GuiderService();
+        this.mapRef = React.createRef();
 
         this.fromTag = null;
         this.fromList = this.guiderService.getFromTags();
         this.toTag = null;
         this.toList = this.guiderService.getToTags();
-        this.map = React.createRef();
-        // global.guiderService =  this.guiderService;
     }
 
     render() {
@@ -30,13 +31,13 @@ export default class App extends React.Component {
 
                     <button onClick={this.go}>Go</button>
 
-                    <button onClick={() => this.changeScale(true)} className="more">+</button>
-                    <button onClick={() => this.changeScale(false)} className="more">-</button>
+                    <button onClick={this.incScale} className="more">+</button>
+                    <button onClick={this.decScale} className="more">-</button>
                 </span>
 
                 <button onClick={this.help}>Help</button>
 
-                <Map visible={this.state.mapDisplay} ref={this.map}></Map>
+                <Map visible={this.state.mapDisplay} ref={this.mapRef}></Map>
 
                 <div id="help" style={ {display: this.state.helpDisplay}}>
                     <h1>Инструкция</h1>
@@ -63,18 +64,33 @@ export default class App extends React.Component {
         this.fromTag = tag;
         this.createRoute();
         this.mapDisplay = 'block';
-    }
+    };
 
     to = (tag) => {
         this.toTag = tag;
         this.createRoute();
         this.mapDisplay = 'block';
-    }
+    };
+
+    go = () => {
+        const map = this.mapRef.current;
+        if (map.path.length > 0) {
+            map.step();
+        }
+    };
+
+    incScale = () => {
+        this.mapRef.current.changeScale(SCALE_FACTOR);
+    };
+
+    decScale = () => {
+        this.mapRef.current.changeScale(1 / SCALE_FACTOR);
+    };
 
     createRoute() {
         let path = this.guiderService.findPath(this.fromTag, this.toTag);
         if (path && path.length) {
-            const map = this.map.current;
+            const map = this.mapRef.current;
             map.path = path;
             setTimeout(() => {
                 map.autoscroll(map.path[0])

@@ -29,14 +29,11 @@ export default class Map extends React.Component {
         this.scale = 1;
         this.pathFld = [];
         this.stepIdx = 0;
-        this.floorIdx = 1 ;
+        this.floorIdx = 0;
 
     }
 
     render() {
-        const imgList = [2,3,4,5,6].map(n =>
-            <img id={'floor'+n} src={'floors/'+n+'.svg'} hidden key={n.toString()}/> );
-
         return (
             <div>
                 <div id="scrollBox" ref={this.scrollBoxRef} style={ {height: this.state.scrollBoxHeight, display: this.props.visible} } >
@@ -45,7 +42,11 @@ export default class Map extends React.Component {
                             onTouchMove={this.handleMove.bind(this)}></canvas>
                 </div>
                 <img id='floor1' src={'floors/1.svg'} onLoad={this.init} hidden key='1'/>
-                {imgList}
+                <img id='floor2' src={'floors/2.svg'} hidden key='2'/>
+                <img id='floor3' src={'floors/3.svg'} hidden key='3'/>
+                <img id='floor4' src={'floors/4.svg'} hidden key='4'/>
+                <img id='floor5' src={'floors/5.svg'} hidden key='5'/>
+                <img id='floor6' src={'floors/6.svg'} hidden key='6'/>
             </div>
         );
     }
@@ -96,7 +97,7 @@ export default class Map extends React.Component {
 
     // ============================ Drawing =====================================
     redraw() {
-        const img = this.bgImages[0]; //// this.currentFloorImage;
+        const img = this.currentFloorImage;
         const canvas = this.canvasRef.current;
         // scale canvas
         canvas.width = img.width * this.scale;
