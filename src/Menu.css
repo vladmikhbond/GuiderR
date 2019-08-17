@@ -3,11 +3,18 @@ button {
   background-color: aqua;
   border: solid 1px black;
 }
+ul {
+  position: absolute;
+  z-index: 2;
+  /*height: 400px;*/
+  overflow: auto;
+}
 li {
   width: 150px;
   height: 30px;
   background-color: aqua;
 }
+
 
 .visible {
   display: block;

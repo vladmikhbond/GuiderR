@@ -1,27 +1,40 @@
 import React from 'react';
 import './Menu.css';
-
+import {DASH_HEIGHT} from './App';
 
 export default class Menu extends React.Component {
     // constructor(props) {
     //     super(props);
     // }
 
-    state = {itemsClass: 'hidden'}
+    state = {
+        itemsClass: 'hidden',
+        menuHeight: `${window.innerHeight - DASH_HEIGHT - 2}px`,
+        tag: this.props.name
+    };
 
     render() {
-        const items = ["111", "222", "333"].map(x => <li key={x}>{x}</li>)
+        const ss = [];
+        for (let i=0; i< 500; i++) {
+            ss.push((i * 100).toString());
+        }
+        const items = ss.map(x => <li onClick={this.itemClick} key={x}>{x}</li>)
         return (
             <React.Fragment>
-                <button onClick={this.buttonClick}>{this.props.name}</button>
-                <ul className={this.state.itemsClass}>
+                <button onClick={this.buttonClick}>{this.state.tag}</button>
+                <ul className={this.state.itemsClass}  style={ {height: this.state.menuHeight} }>
                     {items}
                 </ul>
             </React.Fragment>
-
-
          );
     }
+
+    itemClick = (e) => {
+        this.buttonClick();
+        const tag = e.target.innerHTML;
+        this.setState({tag});
+        this.props.onSelect(tag);
+    };
 
     buttonClick = () => {
         if (this.state.itemsClass === 'hidden') {
@@ -29,7 +42,7 @@ export default class Menu extends React.Component {
         } else {
             this.setState({itemsClass: 'hidden'});
         }
-    }
+    };
 
 }
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Map.css';
 import {Vertex} from './data/vertex';
+import {DASH_HEIGHT} from './App';
 
-const DASH_HEIGHT = 50;
 const SCALE_FACTOR = 1.2;
 const AUTOSCROLL_PADDING = 30;
 const PATH_COLOR = 'yellow';
@@ -27,7 +27,10 @@ export default class Map extends React.Component {
         this.canvasRef = React.createRef();
 
         this.scale = 1;
-        this.path = [];
+        this.pathFld = [];
+        this.stepIdx = 0;
+        this.floorIdx = 1 ;
+
 
     }
 
@@ -115,6 +118,22 @@ export default class Map extends React.Component {
         // this.drawPath();
     }
 
+    // ============================ Properties =====================================
+
+    set path(arr) {
+        this.pathFld = arr;
+        this.stepIdx = 0;
+        this.floorIdx = this.pathFld[0].z;
+        this.redraw();
+    }
+
+    get path() {
+        return this.pathFld;
+    }
+
+    get currentFloorImage() {
+        return this.bgImages[this.floorIdx];
+    }
 
 }
 
