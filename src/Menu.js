@@ -14,7 +14,7 @@ export default class Menu extends React.Component {
     };
 
     render() {
-        const items = this.props.list.map((x, i) => <li onClick={this.itemClick} key={i.toString()}>{x}</li>)
+        const items = this.props.list.map((x, i) => <li onClick={this.itemClick} key={i.toString()}>{x}</li>);
         return (
             <React.Fragment>
                 <button onClick={this.buttonClick}>{this.state.tag}</button>
