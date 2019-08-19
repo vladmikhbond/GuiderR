@@ -2,17 +2,23 @@ button {
   height: 50px;
   background-color: aqua;
   border: solid 1px black;
+
 }
 ul {
   position: absolute;
+  left: 50px;
   z-index: 2;
-  /*height: 400px;*/
+  list-style-type: none;
   overflow: auto;
+  border: 1px green solid;
+  padding-inline-start: 0px;
+
 }
 li {
   width: 150px;
   height: 30px;
   background-color: aqua;
+
 }
 
 

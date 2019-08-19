@@ -14,11 +14,12 @@ export default class Menu extends React.Component {
     };
 
     render() {
-        const items = this.props.list.map(x => <li onClick={this.itemClick} key={x}>{x}</li>)
+        const items = this.props.list.map((x, i) => <li onClick={this.itemClick} key={i.toString()}>{x}</li>)
         return (
             <React.Fragment>
                 <button onClick={this.buttonClick}>{this.state.tag}</button>
-                <ul className={this.state.itemsClass}  style={ {height: this.state.menuHeight} }>
+                <ul className={this.state.itemsClass}
+                    style={ {height: this.state.menuHeight, left: this.props.name === 'To' ? '50px' : '0'} }>
                     {items}
                 </ul>
             </React.Fragment>
@@ -28,7 +29,7 @@ export default class Menu extends React.Component {
     itemClick = (e) => {
         this.buttonClick();
         const tag = e.target.innerHTML;
-        this.setState({tag});
+        this.setState({tag: tag.slice(0, 5)});
         this.props.onSelect(tag);
     };
 
