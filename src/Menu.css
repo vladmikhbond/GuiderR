@@ -1,8 +1,6 @@
-button {
-  height: 50px;
-  background-color: aqua;
-  border: solid 1px black;
-
+.menu {
+  width: 70px;
+  min-width: 70px;
 }
 ul {
   position: absolute;

@@ -32,7 +32,7 @@ export default class App extends React.Component {
                     <button onClick={this.go}>Go</button>
 
                     <button onClick={this.incScale} className="more">+</button>
-                    <button onClick={this.decScale} className="more">-</button>
+                    <button onClick={this.decScale} className="less">-</button>
                 </span>
 
                 <button onClick={this.help}>Help</button>

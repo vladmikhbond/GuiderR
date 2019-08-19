@@ -6,6 +6,7 @@
   position: fixed;
   height: 50px;
   margin: 0;
+  background-color: #00c0c0;
 }
 button {
   width: 50px;
@@ -13,12 +14,20 @@ button {
   height: 50px;
   background-color: aqua;
   padding: 0;
-  border: black 1px solid;
+  border: solid 1px  #009090;
+}
+
+.more, .less {
+  width: 30px;
+  min-width: 30px;
 }
 .more {
-  width: 35px;
-  min-width: 35px;
+  border-right:  #009090 1px  dashed;
 }
+.less {
+   border-left: #009090 1px  dashed;
+ }
+
 #help {
   font-size: 16px;
   text-align: center;
