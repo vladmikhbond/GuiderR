@@ -89,7 +89,7 @@ export default class Map extends React.Component {
             xt = Math.abs(e.touches[0].clientX - e.touches[1].clientX);
             yt = Math.abs(e.touches[0].clientY - e.touches[1].clientY);
             let k = this.xt < xt || this.yt < yt ? SCALE_FACTOR : 1 / SCALE_FACTOR;
-            // this.changeScale(k);
+            this.changeScale(k);
         }
         this.xt = xt;
         this.yt = yt;
