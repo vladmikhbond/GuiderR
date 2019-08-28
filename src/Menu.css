@@ -1,0 +1,28 @@
+.menu {
+  width: 70px;
+  min-width: 70px;
+}
+ul {
+  position: absolute;
+  left: 50px;
+  z-index: 2;
+  list-style-type: none;
+  overflow: auto;
+  border: 1px green solid;
+  padding-inline-start: 0;
+
+}
+li {
+  width: 150px;
+  height: 30px;
+  background-color: aqua;
+
+}
+
+
+.visible {
+  display: block;
+}
+.hidden {
+  display: none;
+}

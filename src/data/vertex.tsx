@@ -10,7 +10,7 @@ export class Vertex
     adjacent: Vertex[] = [];
 
     dist: number = Number.MAX_VALUE;
-    prev: Vertex = new Vertex(0,0,0);
+    prev: any;
     isStable = false;
 
     distTo(other:Vertex): number {

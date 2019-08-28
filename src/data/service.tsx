@@ -1,4 +1,4 @@
-import {Vertex} from "./vertex";
+import {Vertex} from './vertex';
 
 const INF = Number.MAX_SAFE_INTEGER;
 

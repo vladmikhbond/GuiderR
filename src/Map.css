@@ -1,4 +1,5 @@
 canvas {
+    z-index: 1;
 }
 
 #scrollBox {
