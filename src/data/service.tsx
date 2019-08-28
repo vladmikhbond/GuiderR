@@ -20,8 +20,8 @@ export class GuiderService{
         }
         // edges -> vertex.adjacent
         for (let arr of data.edges) {
-            let v1 = this.vertices.find(p => p.x == arr[0] && p.y == arr[1] && p.z == arr[2]);
-            let v2 = this.vertices.find(p => p.x == arr[3] && p.y == arr[4] && p.z == arr[5]);
+            let v1 = this.vertices.find(p => p.x === arr[0] && p.y === arr[1] && p.z === arr[2]);
+            let v2 = this.vertices.find(p => p.x === arr[3] && p.y === arr[4] && p.z === arr[5]);
             if (v1 && v2) {
                 v1.adjacent.push(v2);
                 v2.adjacent.push(v1);
@@ -31,16 +31,16 @@ export class GuiderService{
 
     private getAllTags(): string[] {
         return this.vertices.map(v => v.tags)
-            .filter(t => t != "L" && t != "" && t != null)
+            .filter(t => t !== "L" && t !== "" && t !== null)
             .map(t => t.split(',')
                 .map(x => x.trim())
-                .filter(x => x != ""))
+                .filter(x => x !== ""))
             .reduce((a, s) => a.concat(s), [])
             .sort();
     }
 
     getFromTags(): string[] {
-        return this.getAllTags().filter(t => t != 'М' && t != 'Ж');
+        return this.getAllTags().filter(t => t !== 'М' && t !== 'Ж');
     }
 
     getToTags(): string[] {
@@ -56,7 +56,7 @@ export class GuiderService{
         const res: Vertex[] = [];
         tag = ',' + tag + ',';
         for (let v of this.vertices) {
-            if ((',' + v.tags + ',').indexOf(tag) != -1) {
+            if ((',' + v.tags + ',').indexOf(tag) !== -1) {
                 res.push(v);
             }
         }
@@ -110,20 +110,20 @@ export class GuiderService{
                     v.dist = distToStable;
                     v.prev = stable;
                 }
-                if (tempSet.indexOf(v) == -1) {
+                if (tempSet.indexOf(v) === -1) {
                     tempSet.push(v);
                 }
             }
 
             // no path exists
-            if (tempSet.length == 0) {
+            if (tempSet.length === 0) {
                 // @ts-ignore
                 return null;
             }
 
             // find next stable vertex in the tempSet
             let minDist = Math.min(...tempSet.map(v => v.dist));
-            let idx = tempSet.findIndex(v => v.dist == minDist);
+            let idx = tempSet.findIndex(v => v.dist === minDist);
 
             // A new stable founded
             stable = tempSet[idx];
@@ -139,7 +139,7 @@ export class GuiderService{
     //
     private simplifyPath(start: Vertex, finish: Vertex): Vertex[] {
         let path: Vertex[] = [finish];
-        for (let v = finish.prev; v != start; v = v.prev) {
+        for (let v = finish.prev; v !== start; v = v.prev) {
             if (!collinear(v))
                 path.push(v);
         }
@@ -154,11 +154,11 @@ export class GuiderService{
                 return false;
             let a = path[path.length - 1];
             let c = b.prev;
-            let ex = a.x == b.x && b.x == c.x;
-            let ey = a.y == b.y && b.y == c.y;
-            let ez = a.z == b.z && b.z == c.z;
+            let ex = a.x === b.x && b.x === c.x;
+            let ey = a.y === b.y && b.y === c.y;
+            let ez = a.z === b.z && b.z === c.z;
 
-            return ex && ez || ey && ez;
+            return (ex || ey) && ez;
         }
     }
 

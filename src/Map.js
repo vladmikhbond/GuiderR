@@ -1,6 +1,5 @@
 import React from 'react';
 import './Map.css';
-import {Vertex} from './data/vertex';
 import {DASH_HEIGHT} from './App';
 
 const SCALE_FACTOR = 1.2;
@@ -41,12 +40,12 @@ export default class Map extends React.Component {
                             onTouchStart={this.handleStart.bind(this)}
                             onTouchMove={this.handleMove.bind(this)}></canvas>
                 </div>
-                <img id='floor1' src={'floors/1.svg'} onLoad={this.init} hidden key='1'/>
-                <img id='floor2' src={'floors/2.svg'} hidden key='2'/>
-                <img id='floor3' src={'floors/3.svg'} hidden key='3'/>
-                <img id='floor4' src={'floors/4.svg'} hidden key='4'/>
-                <img id='floor5' src={'floors/5.svg'} hidden key='5'/>
-                <img id='floor6' src={'floors/6.svg'} hidden key='6'/>
+                <img id='floor1' alt='' src={'floors/1.svg'} onLoad={this.init} hidden key='1'/>
+                <img id='floor2' alt='' src={'floors/2.svg'} hidden key='2'/>
+                <img id='floor3' alt='' src={'floors/3.svg'} hidden key='3'/>
+                <img id='floor4' alt='' src={'floors/4.svg'} hidden key='4'/>
+                <img id='floor5' alt='' src={'floors/5.svg'} hidden key='5'/>
+                <img id='floor6' alt='' src={'floors/6.svg'} hidden key='6'/>
             </div>
         );
     }
@@ -60,7 +59,7 @@ export default class Map extends React.Component {
         }
         this.redraw();
 
-    }
+    };
 
 
     // ============================ Touch Event Handlers ==============================
@@ -200,7 +199,7 @@ export default class Map extends React.Component {
             let i = 0;
             const t = setInterval(function() {
                 ctx.fillRect(x - w / 2, y - i * d * upDown, w, h);
-                if (i == n) {
+                if (i === n) {
                     clearInterval(t);
                     me.redraw();
                 }
@@ -235,7 +234,7 @@ export default class Map extends React.Component {
                         me.step();
                     }
                     // the step is last
-                    if (i == path.length - 2) {
+                    if (i === path.length - 2) {
                         setTimeout(drawGoal, LADDER_ANIME_MSEC);
                     }
                 }
@@ -283,7 +282,7 @@ export default class Map extends React.Component {
     // ===================================================================
 
     step() {
-        if (this.stepIdx == this.path.length - 1) {
+        if (this.stepIdx === this.path.length - 1) {
             this.stepIdx = 0;
             this.floorIdx = this.path[this.stepIdx + 1].z;
             this.redraw();
