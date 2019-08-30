@@ -22,6 +22,7 @@ li {
 
 .visible {
   display: block;
+  top: 35px;
 }
 .hidden {
   display: none;

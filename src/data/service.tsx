@@ -1,6 +1,7 @@
 import {Vertex} from './vertex';
 
 const INF = Number.MAX_SAFE_INTEGER;
+const TAG_WIDTH = 14;
 
 export class GuiderService{
 
@@ -29,6 +30,9 @@ export class GuiderService{
         }
     }
 
+    // Парсит оригинальные тэги, разделяя их по запятым,
+    // исключает лестничные тэги, сокращает, если нужно
+    //
     private getAllTags(): string[] {
         return this.vertices.map(v => v.tags)
             .filter(t => t !== "L" && t !== "" && t !== null)
@@ -36,18 +40,18 @@ export class GuiderService{
                 .map(x => x.trim())
                 .filter(x => x !== ""))
             .reduce((a, s) => a.concat(s), [])
-            .sort();
+            .map(t => t.length < TAG_WIDTH ? t : t.slice(0, TAG_WIDTH) + "...");
     }
 
     getFromTags(): string[] {
-        return this.getAllTags().filter(t => t !== 'М' && t !== 'Ж');
+        return this.getAllTags()
+            .filter(t => t !== 'М' && t !== 'Ж' && t !== 'Буфет')
+            .sort();
     }
 
     getToTags(): string[] {
         let tags = this.getFromTags();
-        tags.push('М');
-        tags.push('Ж');
-        tags.sort();
+        tags.push('Буфет', 'М', 'Ж');
         return tags;
     }
 
