@@ -1,7 +1,6 @@
 import {Vertex} from './vertex';
 
 const INF = Number.MAX_SAFE_INTEGER;
-const TAG_WIDTH = 14;
 
 export class GuiderService{
 
@@ -31,7 +30,7 @@ export class GuiderService{
     }
 
     // Парсит оригинальные тэги, разделяя их по запятым,
-    // исключает лестничные тэги, сокращает, если нужно
+    // исключает лестничные тэги
     //
     private getAllTags(): string[] {
         return this.vertices.map(v => v.tags)
@@ -39,8 +38,8 @@ export class GuiderService{
             .map(t => t.split(',')
                 .map(x => x.trim())
                 .filter(x => x !== ""))
-            .reduce((a, s) => a.concat(s), [])
-            .map(t => t.length < TAG_WIDTH ? t : t.slice(0, TAG_WIDTH) + "...");
+            .reduce((a, s) => a.concat(s), []);
+
     }
 
     getFromTags(): string[] {
@@ -88,11 +87,10 @@ export class GuiderService{
         });
         // main part
         const finish = this.Dijkstra(start, targets);
-        if (finish.prev != null)
+        if (finish && finish.prev != null)
             return this.simplifyPath(start, finish);
         // no path found
-        // @ts-ignore
-        return null;
+        return [];
     }
 
     // Path is not found if finish.prev == null

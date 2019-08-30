@@ -95,6 +95,8 @@ export default class App extends React.Component {
             setTimeout(() => {
                 map.autoscroll(map.path[0])
             }, 0)
+        } else {
+            console.log(`cannot find path ${this.fromTag} -- ${this.toTag}`)
         }
     }
 
