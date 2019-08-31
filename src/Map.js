@@ -38,7 +38,7 @@ export default class Map extends React.Component {
                 <div id="scrollBox" ref={this.scrollBoxRef} style={ {height: this.state.scrollBoxHeight, display: this.props.visible} } >
                     <canvas ref={this.canvasRef}
                             onTouchStart={this.handleStart.bind(this)}
-                            onTouchMove={this.handleMove.bind(this)}></canvas>
+                            onTouchMove={this.handleMove.bind(this)}> </canvas>
                 </div>
                 <img id='floor1' alt='' src={'floors/1.svg'} onLoad={this.init} hidden key='1'/>
                 <img id='floor2' alt='' src={'floors/2.svg'} hidden key='2'/>
@@ -98,6 +98,7 @@ export default class Map extends React.Component {
     redraw() {
         const img = this.currentFloorImage;
         const canvas = this.canvasRef.current;
+
         // scale canvas
         canvas.width = img.width * this.scale;
         canvas.height = img.height * this.scale;
@@ -109,10 +110,9 @@ export default class Map extends React.Component {
             0, 0, canvas.width, canvas.height);
 
         // may be draw path
-        if (!this.path.length) {
-            return;
+        if (this.path.length) {
+            this.drawPath();
         }
-        this.drawPath();
     }
 
     drawPath() {
@@ -261,13 +261,23 @@ export default class Map extends React.Component {
     }
 
 
+    showNextLevel() {
+        this.floorIdx = (this.floorIdx + 1) % 6;
+        this.redraw();
+    }
+
+
 
     // ============================ Properties =====================================
 
     set path(arr) {
         this.pathFld = arr;
         this.stepIdx = 0;
-        this.floorIdx = this.pathFld[0].z;
+        if (arr.length) {
+            this.floorIdx = arr[0].z;
+        } else {
+            this.floorIdx = 0;
+        }
         this.redraw();
     }
 

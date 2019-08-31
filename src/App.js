@@ -37,7 +37,7 @@ export default class App extends React.Component {
 
                 <button onClick={this.help}>Help</button>
 
-                <Map visible={this.state.mapDisplay} ref={this.mapRef}></Map>
+                <Map visible={this.state.mapDisplay} ref={this.mapRef} />
 
                 <div id="help" style={ {display: this.state.helpDisplay}}>
                     <h1>Инструкция</h1>
@@ -76,6 +76,8 @@ export default class App extends React.Component {
         const map = this.mapRef.current;
         if (map.path.length > 0) {
             map.step();
+        } else {
+            map.showNextLevel();
         }
     };
 
@@ -88,14 +90,15 @@ export default class App extends React.Component {
     };
 
     createRoute() {
+        const map = this.mapRef.current;
         let path = this.guiderService.findPath(this.fromTag, this.toTag);
         if (path && path.length) {
-            const map = this.mapRef.current;
             map.path = path;
             setTimeout(() => {
                 map.autoscroll(map.path[0])
             }, 0)
         } else {
+            map.path = [];
             console.log(`cannot find path ${this.fromTag} -- ${this.toTag}`)
         }
     }
