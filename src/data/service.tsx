@@ -44,13 +44,13 @@ export class GuiderService{
 
     getFromTags(): string[] {
         return this.getAllTags()
-            .filter(t => t !== 'М' && t !== 'Ж' && t !== 'Буфет')
+            .filter(t => !['М', 'Ж', 'Буфет', 'Столовая'].includes(t))     //(t => t !== 'М' && t !== 'Ж' && t !== 'Буфет')
             .sort();
     }
 
     getToTags(): string[] {
         let tags = this.getFromTags();
-        tags.push('Буфет', 'М', 'Ж');
+        tags.push('Буфет', 'М', 'Ж', 'Столовая');
         return tags;
     }
 

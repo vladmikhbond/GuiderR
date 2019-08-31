@@ -8,15 +8,12 @@ ul {
   z-index: 2;
   list-style-type: none;
   overflow: auto;
-  border: 1px green solid;
   padding-inline-start: 0;
-
 }
 li {
   width: 150px;
   height: 30px;
   background-color: aqua;
-
 }
 
 

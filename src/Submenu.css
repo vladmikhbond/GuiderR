@@ -1,0 +1,18 @@
+.submenu_btn {
+    display: block;
+    width: 150px;
+    background-color: #ffffff;
+    border: solid 1px #d0d0d0;
+    color: #5f5f5f;
+}
+
+.submenu_ul {
+    position: unset;
+}
+
+.submenu_ul > li {
+    width: unset;
+    background-color: #e8e8e8;
+    color: #5f5f5f;
+    font-weight: lighter;
+}

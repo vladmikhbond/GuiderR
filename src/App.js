@@ -7,6 +7,9 @@ import {GuiderService} from './data/service';
 export const DASH_HEIGHT = 50;
 const SCALE_FACTOR = 1.2;
 
+const DIGIT_FIRST = /^\d/;
+const CATEGORIES = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'Другие'];
+
 export default class App extends React.Component {
 
     state = {dashDisplay: 'inline', helpDisplay: 'none', mapDisplay: 'block' };
@@ -25,9 +28,9 @@ export default class App extends React.Component {
     render() {
         return (
             <div className="dash">
-                <span style={ {display: this.state.dashDisplay}}>
-                    <Menu name='From' list={this.fromList} onSelect={this.from}/>
-                    <Menu name='To' list={this.toList} onSelect={this.to}/>
+                <span style={{ display: this.state.dashDisplay }}>
+                    <Menu name='From' menuSet={this.createMenu(this.fromList)} onSelect={this.from} />
+                    <Menu name='To' menuSet={this.createMenu(this.toList)} onSelect={this.to} />
 
                     <button onClick={this.go}>Go</button>
 
@@ -113,5 +116,33 @@ export default class App extends React.Component {
         }
     }
 
+
+    createMenu = (list) => {
+        const menu = {};
+
+        // создать массивы для каждой категории
+        CATEGORIES.forEach(categoryName => {
+            menu[categoryName] = [];
+        })
+
+        // распределить по первому символу
+        list.forEach(item => {
+            if (DIGIT_FIRST.test(item)) {
+                menu[item[0]].push(item);
+            }
+            else {
+                menu['Другие'].push(item);
+            }
+        });
+
+        // убрать категории без элементов
+        CATEGORIES.forEach(categoryName => {
+            if (!menu[categoryName].length) {
+                delete menu[categoryName]
+            }
+        })
+
+        return menu;
+    }
 }
 
