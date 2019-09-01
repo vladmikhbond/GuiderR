@@ -38,7 +38,7 @@ export default class App extends React.Component {
                     <button onClick={this.decScale} className="less">-</button>
                 </span>
 
-                <button onClick={this.help}>Help</button>
+                <button onClick={this.help}>{this.state.helpDisplay === 'none' ? 'Help' : 'Back'}</button>
 
                 <Map visible={this.state.mapDisplay} ref={this.mapRef} />
 

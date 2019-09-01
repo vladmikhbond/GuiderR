@@ -18,7 +18,7 @@ export default class Submenu extends React.Component {
                 </li>);
 
         return (
-            <React.Fragment>
+            <React.Fragment key={this.props.title}>
                 <button
                     onClick={this.props.titleClick}
                     name={this.props.title}
@@ -26,7 +26,6 @@ export default class Submenu extends React.Component {
                 >
                     {this.props.title}
                 </button>
-
                 <ul 
                     className={'submenu_ul'}
                     style={{ 'display': this.props.isOpen ? 'block' : 'none' }}>
