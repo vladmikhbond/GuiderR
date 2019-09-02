@@ -61,7 +61,7 @@ export default class Menu extends React.Component {
         if (this.state.menuClass === 'hidden') {
             this.setState({ menuClass: 'visible' });
         } else {
-            this.setState({ menuClass: 'hidden' });
+            this.setState({ menuClass: 'hidden' , openSubTitle: null});
         }
     };
 }
