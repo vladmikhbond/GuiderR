@@ -12,13 +12,10 @@ const LINE_ANIME_MSEC = 50;
 
 
 export default class Map extends React.Component {
+
     state = {
-        dashDisplay: 'inline',
-        helpDisplay: 'none',
-        mapDisplay: 'block',
         scrollBoxHeight: `${window.innerHeight - DASH_HEIGHT - 2}px`
     };
-
 
     constructor(props) {
         super(props);
@@ -333,12 +330,6 @@ export default class Map extends React.Component {
             let d = box.scrollLeft - target.x * k;
             box.scrollLeft -= d + AUTOSCROLL_PADDING;
         }
-        // to down
-        if ( target.y * k > box.scrollTop + box.clientHeight) {
-            let d = target.y * k - (box.scrollTop + box.clientHeight);
-            box.scrollTop += d + AUTOSCROLL_PADDING;
-        }
-
         // to down
         if ( target.y * k > box.scrollTop + box.clientHeight) {
             let d = target.y * k - (box.scrollTop + box.clientHeight);

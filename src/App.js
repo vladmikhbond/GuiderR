@@ -9,7 +9,11 @@ const SCALE_FACTOR = 1.2;
 
 export default class App extends React.Component {
 
-    state = {dashDisplay: 'inline', helpDisplay: 'none', mapDisplay: 'block' };
+    state = {
+        dashDisplay: 'inline',
+        helpDisplay: 'none',
+        mapDisplay: 'block'
+    };
 
     constructor(props) {
         super(props);
