@@ -35,9 +35,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
+<<<<<<< Updated upstream
      inkscape:zoom="0.50000001"
      inkscape:cx="711.65581"
      inkscape:cy="-104.54645"
+=======
+     inkscape:zoom="4.0000001"
+     inkscape:cx="1022.3051"
+     inkscape:cy="273.6761"
+>>>>>>> Stashed changes
      inkscape:document-units="mm"
      inkscape:current-layer="layer11"
      showgrid="true"
@@ -47,11 +53,19 @@
      fit-margin-bottom="1"
      showguides="true"
      inkscape:guide-bbox="true"
+<<<<<<< Updated upstream
      inkscape:window-width="1278"
      inkscape:window-height="1368"
      inkscape:window-x="-7"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
+=======
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+>>>>>>> Stashed changes
      inkscape:snap-others="false"
      inkscape:snap-grids="false">
     <inkscape:grid
@@ -328,6 +342,7 @@
   </g>
   <g
      inkscape:groupmode="layer"
+<<<<<<< Updated upstream
      id="layer10"
      inkscape:label="ladders"
      transform="translate(-0.61295734,1.9791907)"
@@ -470,58 +485,164 @@
        style="display:inline"
        id="g2728-0-1-1-4"
        transform="matrix(-1.9241262e-4,0.1992359,-0.15770357,-2.4308582e-4,238.57462,89.661928)">
+=======
+     id="layer2"
+     inkscape:label="ladders 1"
+     sodipodi:insensitive="true">
+    <g
+       style="display:inline"
+       id="g2728-0-1-31-9"
+       transform="matrix(-2.4308582e-4,0.1992359,-0.1992359,-2.4308582e-4,286.28383,79.652369)">
       <rect
          y="35.622692"
          x="137.11087"
          height="3.7797618"
          width="19.087799"
-         id="rect2672-98-79-7-3"
+         id="rect2672-98-79-69-8"
          style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          y="39.402454"
          x="137.11087"
          height="3.7797618"
          width="19.087799"
-         id="rect2672-8-5-20-7-6"
+         id="rect2672-8-5-20-2-7"
          style="opacity:1;fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          y="43.182217"
          x="137.11087"
          height="3.7797618"
          width="19.087799"
-         id="rect2672-9-1-29-7-2"
+         id="rect2672-9-1-29-03-2"
          style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          y="46.961979"
          x="137.11087"
          height="3.7797618"
          width="19.087799"
-         id="rect2672-2-2-92-41-0"
+         id="rect2672-2-2-92-7-1"
          style="opacity:1;fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          y="50.741741"
          x="137.11087"
          height="3.7797618"
          width="19.087799"
-         id="rect2672-3-6-3-9-5"
+         id="rect2672-3-6-3-778-0"
          style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          y="54.521503"
          x="137.11087"
          height="3.7797618"
          width="19.087799"
-         id="rect2672-6-2-9-2-6"
+         id="rect2672-6-2-9-21-4"
          style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          y="58.301266"
          x="137.11087"
          height="3.7797618"
          width="19.087799"
+         id="rect2672-86-0-82-12-8"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <rect
+       style="display:inline;opacity:1;fill:#eeffaa;fill-opacity:1;stroke:none;stroke-width:0.27340335;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1353-2"
+       width="8.3162107"
+       height="5.6025324"
+       x="286.27887"
+       y="106.94878" />
+    <rect
+       style="display:inline;opacity:1;fill:#eeffaa;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1355-4"
+       width="8.5267477"
+       height="5.6318641"
+       x="283.48917"
+       y="115.29111" />
+    <g
+       style="display:inline"
+       id="g2728-0-1-1-4-1"
+       transform="matrix(-1.9241262e-4,0.1992359,-0.15770357,-2.4308582e-4,237.96167,91.641116)">
+>>>>>>> Stashed changes
+      <rect
+         y="35.622692"
+         x="137.11087"
+         height="3.7797618"
+         width="19.087799"
+<<<<<<< Updated upstream
+         id="rect2672-98-79-7-3"
+=======
+         id="rect2672-98-79-7-3-1"
+>>>>>>> Stashed changes
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="39.402454"
+         x="137.11087"
+         height="3.7797618"
+         width="19.087799"
+<<<<<<< Updated upstream
+         id="rect2672-8-5-20-7-6"
+=======
+         id="rect2672-8-5-20-7-6-1"
+>>>>>>> Stashed changes
+         style="opacity:1;fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="43.182217"
+         x="137.11087"
+         height="3.7797618"
+         width="19.087799"
+<<<<<<< Updated upstream
+         id="rect2672-9-1-29-7-2"
+=======
+         id="rect2672-9-1-29-7-2-5"
+>>>>>>> Stashed changes
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="46.961979"
+         x="137.11087"
+         height="3.7797618"
+         width="19.087799"
+<<<<<<< Updated upstream
+         id="rect2672-2-2-92-41-0"
+=======
+         id="rect2672-2-2-92-41-0-6"
+>>>>>>> Stashed changes
+         style="opacity:1;fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="50.741741"
+         x="137.11087"
+         height="3.7797618"
+         width="19.087799"
+<<<<<<< Updated upstream
+         id="rect2672-3-6-3-9-5"
+=======
+         id="rect2672-3-6-3-9-5-7"
+>>>>>>> Stashed changes
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="54.521503"
+         x="137.11087"
+         height="3.7797618"
+         width="19.087799"
+<<<<<<< Updated upstream
+         id="rect2672-6-2-9-2-6"
+=======
+         id="rect2672-6-2-9-2-6-3"
+>>>>>>> Stashed changes
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="58.301266"
+         x="137.11087"
+         height="3.7797618"
+         width="19.087799"
+<<<<<<< Updated upstream
          id="rect2672-86-0-82-1-3"
+=======
+         id="rect2672-86-0-82-1-3-3"
+>>>>>>> Stashed changes
          style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <rect
        style="display:inline;opacity:1;fill:#b78d8d;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+<<<<<<< Updated upstream
        id="rect1644-0"
        width="3.5729311"
        height="3.5729311"
@@ -534,6 +655,20 @@
        height="3.5729311"
        x="294.026"
        y="115.76469" />
+=======
+       id="rect1644-0-5"
+       width="3.5729311"
+       height="3.5729311"
+       x="282.69424"
+       y="109.60981" />
+    <rect
+       style="display:inline;opacity:1;fill:#b78d8d;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1644-7-1"
+       width="3.5729311"
+       height="3.5729311"
+       x="293.41306"
+       y="117.74388" />
+>>>>>>> Stashed changes
   </g>
   <g
      inkscape:groupmode="layer"
@@ -571,6 +706,7 @@
      transform="translate(-0.61295734,1.9791907)"
      style="display:inline"
      sodipodi:insensitive="true">
+<<<<<<< Updated upstream
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.43143344px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06078584"
@@ -631,6 +767,68 @@
          style="stroke-width:0.06078584" /></text>
     <text
        xml:space="preserve"
+=======
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.43143344px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06078584"
+       x="49.069313"
+       y="53.216743"
+       id="text3464"><tspan
+         sodipodi:role="line"
+         id="tspan3462"
+         x="49.069313"
+         y="55.435013"
+         style="stroke-width:0.06078584" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1169"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion1171"><rect
+           id="rect1173"
+           width="1340.2711"
+           height="778.73016"
+           x="-60.76796"
+           y="-37.240276" /></flowRegion><flowPara
+         id="flowPara1175" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.43143344px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06078584"
+       x="39.471951"
+       y="93.945526"
+       id="text3464-62"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-41"
+         x="39.471951"
+         y="96.163795"
+         style="stroke-width:0.06078584" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.43143344px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06078584"
+       x="48.71904"
+       y="99.199081"
+       id="text3464-90"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-7"
+         x="48.71904"
+         y="101.41735"
+         style="stroke-width:0.06078584" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.43143344px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06078584"
+       x="48.695072"
+       y="94.009331"
+       id="text3464-5"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-32"
+         x="48.695072"
+         y="96.2276"
+         style="stroke-width:0.06078584" /></text>
+    <text
+       xml:space="preserve"
+>>>>>>> Stashed changes
        style="font-style:normal;font-weight:normal;font-size:2.43143344px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06078584"
        x="2.3975751"
        y="152.53256"
@@ -643,13 +841,20 @@
          style="stroke-width:0.06078584" /></text>
     <text
        xml:space="preserve"
+<<<<<<< Updated upstream
        style="font-style:normal;font-weight:normal;font-size:2.17535305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:0.05438383"
        x="253.3447"
        y="109.85101"
+=======
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="245.80408"
+       y="109.72401"
+>>>>>>> Stashed changes
        id="text3464-29-9"
        transform="rotate(0.04018816)"><tspan
          sodipodi:role="line"
          id="tspan3462-097-0"
+<<<<<<< Updated upstream
          x="253.3447"
          y="109.85101"
          style="fill:#00000c;fill-opacity:1;stroke-width:0.05438383">605и</tspan></text>
@@ -658,10 +863,21 @@
        style="font-style:normal;font-weight:normal;font-size:2.17535305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
        x="244.49039"
        y="109.88684"
+=======
+         x="245.80408"
+         y="109.72401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00000c;fill-opacity:1;stroke-width:0.05438383">608и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="239.86015"
+       y="109.7578"
+>>>>>>> Stashed changes
        id="text3464-705-8"
        transform="rotate(0.04018816)"><tspan
          sodipodi:role="line"
          id="tspan3462-769-4"
+<<<<<<< Updated upstream
          x="244.49039"
          y="109.88684"
          style="stroke-width:0.05438383">603и</tspan></text>
@@ -670,10 +886,21 @@
        style="font-style:normal;font-weight:normal;font-size:2.17535305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
        x="233.71022"
        y="109.86105"
+=======
+         x="239.86015"
+         y="109.7578"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">606и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="232.6519"
+       y="109.8618"
+>>>>>>> Stashed changes
        id="text3464-20-3-2"
        transform="rotate(0.04018816)"><tspan
          sodipodi:role="line"
          id="tspan3462-20-7-1"
+<<<<<<< Updated upstream
          x="233.71022"
          y="109.86105"
          style="stroke-width:0.05438383">601и</tspan></text>
@@ -682,16 +909,35 @@
        style="font-style:normal;font-weight:normal;font-size:2.17535305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
        x="257.64301"
        y="118.26414"
+=======
+         x="232.6519"
+         y="109.8618"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">604и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="251.29305"
+       y="118.2686"
+>>>>>>> Stashed changes
        id="text3464-705-8-1"
        transform="rotate(0.04018816)"><tspan
          sodipodi:role="line"
          id="tspan3462-769-4-4"
+<<<<<<< Updated upstream
          x="257.64301"
          y="118.26414"
          style="stroke-width:0.05438383">604и</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.17535305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+=======
+         x="251.29305"
+         y="118.2686"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">605и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+>>>>>>> Stashed changes
        x="238.1291"
        y="119.30279"
        id="text3464-20-3-3"
@@ -700,19 +946,34 @@
          id="tspan3462-20-7-6"
          x="238.1291"
          y="119.30279"
+<<<<<<< Updated upstream
          style="stroke-width:0.05438383">600и</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.17535305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
        x="246.86279"
        y="118.23838"
+=======
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">601и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="245.80447"
+       y="118.23912"
+>>>>>>> Stashed changes
        id="text3464-20-3-2-6"
        transform="rotate(0.04018816)"><tspan
          sodipodi:role="line"
          id="tspan3462-20-7-1-7"
+<<<<<<< Updated upstream
          x="246.86279"
          y="118.23838"
          style="stroke-width:0.05438383">602и</tspan></text>
+=======
+         x="245.80447"
+         y="118.23912"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">603и</tspan></text>
+>>>>>>> Stashed changes
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.17535305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
@@ -727,15 +988,195 @@
          style="stroke-width:0.05438383" /></text>
     <text
        xml:space="preserve"
+<<<<<<< Updated upstream
        style="font-style:normal;font-weight:normal;font-size:2.17535305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:0.05438383"
        x="263.88229"
        y="109.79136"
+=======
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="256.47379"
+       y="109.7304"
+>>>>>>> Stashed changes
        id="text3464-29-9-8"
        transform="rotate(0.04018816)"><tspan
          sodipodi:role="line"
          id="tspan3462-097-0-4"
+<<<<<<< Updated upstream
          x="263.88229"
          y="109.79136"
          style="fill:#00000c;fill-opacity:1;stroke-width:0.05438383">607и</tspan></text>
+=======
+         x="256.47379"
+         y="109.7304"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00000c;fill-opacity:1;stroke-width:0.05438383">610и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="228.66101"
+       y="114.01798"
+       id="text3464-20-3-3-1"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-6-5"
+         x="228.66101"
+         y="114.01798"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">602и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="256.57739"
+       y="118.2979"
+       id="text3464-20-3-3-6"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-6-2"
+         x="256.57739"
+         y="118.2979"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">607и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="261.93527"
+       y="118.29412"
+       id="text3464-20-3-3-4"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-6-1"
+         x="261.93527"
+         y="118.29412"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">609и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="267.29291"
+       y="118.29037"
+       id="text3464-20-3-3-3"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-6-0"
+         x="267.29291"
+         y="118.29037"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">611и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="261.95312"
+       y="109.67825"
+       id="text3464-20-3-3-4-3"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-6-1-5"
+         x="261.95312"
+         y="109.67825"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">612и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="267.31076"
+       y="109.6745"
+       id="text3464-20-3-3-3-3"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-6-0-4"
+         x="267.31076"
+         y="109.6745"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">614и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="308.3573"
+       y="109.70506"
+       id="text3464-29-9-82"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-097-0-0"
+         x="308.3573"
+         y="109.70506"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00000c;fill-opacity:1;stroke-width:0.05438383">622и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="301.88403"
+       y="109.73914"
+       id="text3464-705-8-3"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-769-4-0"
+         x="301.88403"
+         y="109.73914"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">620и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="293.61725"
+       y="109.84389"
+       id="text3464-20-3-2-1"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-1-70"
+         x="293.61725"
+         y="109.84389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">618и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="308.55469"
+       y="118.2534"
+       id="text3464-705-8-1-9"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-769-4-4-3"
+         x="308.55469"
+         y="118.2534"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">617и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="282.95731"
+       y="118.23801"
+       id="text3464-20-3-2-6-3"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-1-7-8"
+         x="282.95731"
+         y="118.23801"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">615и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="315.32312"
+       y="109.714"
+       id="text3464-29-9-8-3"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-097-0-4-4"
+         x="315.32312"
+         y="109.714"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#00000c;fill-opacity:1;stroke-width:0.05438383">624и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="275.87061"
+       y="118.24311"
+       id="text3464-20-3-3-1-7"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-6-5-3"
+         x="275.87061"
+         y="118.24311"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">613и</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05438383"
+       x="320.27637"
+       y="113.89555"
+       id="text3464-20-3-3-4-3-2"
+       transform="rotate(0.04018816)"><tspan
+         sodipodi:role="line"
+         id="tspan3462-20-7-6-1-5-7"
+         x="320.27637"
+         y="113.89555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.76388884px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.05438383">600и</tspan></text>
+>>>>>>> Stashed changes
   </g>
 </svg>
