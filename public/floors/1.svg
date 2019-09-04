@@ -35,15 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-<<<<<<< Updated upstream
-     inkscape:zoom="4"
-     inkscape:cx="188.78438"
-     inkscape:cy="96.701754"
-=======
      inkscape:zoom="1"
      inkscape:cx="742.20862"
      inkscape:cy="373.60574"
->>>>>>> Stashed changes
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -465,14 +459,8 @@
   </g>
   <g
      inkscape:groupmode="layer"
-<<<<<<< Updated upstream
-     id="layer10"
-     inkscape:label="ladders"
-     transform="translate(-0.61295734,1.9791907)"
-=======
      id="layer2"
      inkscape:label="ladders 1"
->>>>>>> Stashed changes
      style="display:inline"
      sodipodi:insensitive="true">
     <g
