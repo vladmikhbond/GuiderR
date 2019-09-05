@@ -29,10 +29,37 @@ button {
  }
 
 #help {
-  font-size: 16px;
-  text-align: center;
-  padding: 10px;
   position: absolute;
   top: 50px;
   width: 100%;
+}
+
+#guider {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 200%;
+}
+
+#legend {
+  text-align: left;
+  font-size: smaller;
+  border: solid gray 1px;
+  width: 260px;
+  padding-left: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#authors {
+  margin: 20px auto;
+  font-size: smaller;
+  width: 280px;
+  padding-left: 10px;
+}
+
+
+#help h2, h3{
+  color: #009090;
 }
