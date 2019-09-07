@@ -2,7 +2,10 @@ import {Vertex} from './vertex';
 
 const INF = Number.MAX_SAFE_INTEGER;
 
+
 export class GuiderService{
+
+    multiTags = ["Буфет", "Столовая", "М", "Ж",];
 
     vertices: Vertex[] = [];
 
@@ -44,13 +47,15 @@ export class GuiderService{
 
     getFromTags(): string[] {
         return this.getAllTags()
-            .filter(t => t !== 'М' && t !== 'Ж' && t !== 'Буфет')
+            .filter(t => this.multiTags.indexOf(t) === -1)
             .sort();
     }
 
     getToTags(): string[] {
         let tags = this.getFromTags();
-        tags.push('Буфет', 'М', 'Ж');
+        for (let tag of this.multiTags) {
+            tags.push(tag);
+        }
         return tags;
     }
 
